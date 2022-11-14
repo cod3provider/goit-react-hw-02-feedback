@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   render () {
-  const { good, neutral, bad } = this.state;
+    const { good, neutral, bad } = this.state;
     return (
       <div
         style={{
@@ -70,7 +70,6 @@ class App extends Component {
       </div>
     )
   }
-
 }
 
 export default App;
